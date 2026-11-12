@@ -1,0 +1,20 @@
+{
+  "users": {
+    "input": 120,
+    "accepted": 120,
+    "rejected": 0,
+    "reason_counts": {}
+  },
+  "items": {
+    "input": 100,
+    "accepted": 100,
+    "rejected": 0,
+    "reason_counts": {}
+  },
+  "interactions": {
+    "input": 4200,
+    "accepted": 4200,
+    "rejected": 0,
+    "reason_counts": {}
+  }
+}

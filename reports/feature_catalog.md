@@ -1,3 +1,4 @@
+# Prepared by 2025ag05290
 # Feature catalog
 
 All interaction-derived features use accepted events strictly before the configured UTC cutoff. Entity metadata comes from accepted input CSVs. Tables are keyed as indicated and can be reloaded for batch prediction.

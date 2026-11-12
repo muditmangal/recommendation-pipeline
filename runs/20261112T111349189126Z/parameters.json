@@ -1,0 +1,10 @@
+{
+  "personalized": {
+    "algorithm": "truncated SVD of binary user-item matrix",
+    "rank": 12
+  },
+  "baseline": {
+    "algorithm": "interaction count popularity"
+  },
+  "seed": 42
+}

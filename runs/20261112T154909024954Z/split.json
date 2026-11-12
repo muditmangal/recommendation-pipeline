@@ -1,0 +1,6 @@
+{
+  "cutoff_utc": "2024-08-01 00:00:00+00:00",
+  "train": 3021,
+  "test": 1179,
+  "rule": "train timestamp < cutoff; test timestamp >= cutoff"
+}

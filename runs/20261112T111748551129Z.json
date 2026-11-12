@@ -1,0 +1,73 @@
+{
+  "run_id": "20261112T111748551129Z",
+  "started_utc": "2026-11-12T11:17:48.551129+00:00",
+  "config": {
+    "source": "synthetic",
+    "seed": 42,
+    "cutoff": "2024-08-01",
+    "rank": 12,
+    "k": 5
+  },
+  "stages": [
+    {
+      "name": "ingestion",
+      "status": "success",
+      "seconds": 0.127
+    },
+    {
+      "name": "validation",
+      "status": "success",
+      "seconds": 0.035
+    },
+    {
+      "name": "preparation",
+      "status": "success",
+      "seconds": 0.014
+    },
+    {
+      "name": "feature_transformation",
+      "status": "success",
+      "seconds": 0.05
+    },
+    {
+      "name": "training",
+      "status": "success",
+      "seconds": 0.019
+    },
+    {
+      "name": "evaluation",
+      "status": "success",
+      "seconds": 0.038
+    }
+  ],
+  "status": "success",
+  "artifact_directory": "runs/20261112T111748551129Z",
+  "metrics": [
+    {
+      "model": "popularity",
+      "precision_at_k": 0.13333333333333322,
+      "recall_at_k": 0.06840853590853589,
+      "ndcg_at_k": 0.13177602447029765,
+      "coverage": 0.12,
+      "diversity": 0.8316666666666669,
+      "evaluated_users": 120,
+      "excluded_no_novel": 0
+    },
+    {
+      "model": "personalized",
+      "precision_at_k": 0.233333333333333,
+      "recall_at_k": 0.12286013754763751,
+      "ndcg_at_k": 0.24410860525515307,
+      "coverage": 1.0,
+      "diversity": 0.6608333333333334,
+      "evaluated_users": 120,
+      "excluded_no_novel": 0
+    }
+  ],
+  "input_sha256": {
+    "users": "3f916c2ff7728330a1cef8e4cdbc5dd7cdaf19cb50f2b74bbe5bfa63297d1357",
+    "items": "d3362b2c8536d4cabd3453d0474dacf7f0a066acea0878725f096cdd9b53246d",
+    "interactions": "f7af6af324f84360d2463dfd4023a5787d6032623f62d84b467b4a908fc03754"
+  },
+  "finished_utc": "2026-11-12T11:17:48.849857+00:00"
+}
